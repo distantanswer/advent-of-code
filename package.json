@@ -1,0 +1,26 @@
+{
+  "name": "advent-of-code",
+  "version": "1.0.0",
+  "description": "Advent of Code Solutions",
+  "type": "module",
+  "scripts": {
+    "start": "aoc-automation day",
+    "format": "prettier -w src",
+    "update:readme": "aoc-automation update:readme"
+  },
+  "keywords": [
+    "aoc"
+  ],
+  "author": "Cam G",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "aoc-automation": "^2.0.2",
+    "prettier": "^2.8.0"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=16.13.0"
+  },
+  "packageManager": "^npm@10.7.0"
+}
